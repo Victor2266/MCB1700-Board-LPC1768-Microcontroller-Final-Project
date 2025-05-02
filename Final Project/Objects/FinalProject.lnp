@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\glcd_spi_lpc1700.o"
+".\objects\kbd.o"
+".\objects\mainmenu.o"
+".\objects\adcuser.o"
+".\objects\usbcore.o"
+".\objects\usbdesc.o"
+".\objects\usbdmain.o"
+".\objects\usbhw.o"
+".\objects\usbuser.o"
+".\objects\gamescript.o"
+".\objects\blueflower.o"
+".\objects\colorful-bg.o"
+".\objects\darkerbg.o"
+".\objects\gallery.o"
+".\objects\gameicon.o"
+".\objects\musical-note.o"
+".\objects\sword.o"
+"..\..\..\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib"
+".\objects\rtx_conf_cm.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+--strict --scatter ".\USBAudio\DMA.sct"
+--summary_stderr --info summarysizes --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\FinalProject.map" -o .\Objects\FinalProject.axf

@@ -1,0 +1,152 @@
+Dependencies for Project 'Final_Project', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\main.c)(0x6748976D)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdio.h)(0x6025CC34)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\string.h)(0x6025CC3E)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdlib.h)(0x6025CC34)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\math.h)(0x6025CC38)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdint.h)(0x6025CC3E)
+I (osObjects.h)(0x5C8ACD3C)
+I (F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x60D491A2)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stddef.h)(0x6025CC3E)
+I (LPC17xx.h)(0x673F8C0F)
+I (.\USBAudio\core_cm3.h)(0x4D251A7C)
+I (.\USBAudio\system_LPC17xx.h)(0x5452635A)
+I (GLCD.h)(0x673F8967)
+I (KBD.h)(0x673D07F5)
+I (USBAudio/type.h)(0x4D251A7C)
+I (GameScript.h)(0x673F5B5C)
+I (MainMenu.h)(0x673F5DD1)
+I (Images/colorful-BG.h)(0x6740051D)
+I (Images/sword.h)(0x67400597)
+I (Images/blueFlower.h)(0x67400583)
+I (Images/castle.h)(0x6740077A)
+F (.\Font_6x8_h.h)(0x631E5620)()
+F (.\Font_16x24_h.h)(0x631E5620)()
+F (.\GLCD.h)(0x673F8967)()
+F (.\GLCD_SPI_LPC1700.c)(0x6744BE9D)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\glcd_spi_lpc1700.o --omf_browse .\objects\glcd_spi_lpc1700.crf --depend .\objects\glcd_spi_lpc1700.d)
+I (.\USBAudio\lpc17xx.h)(0x537C1E0A)
+I (.\USBAudio\core_cm3.h)(0x4D251A7C)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdint.h)(0x6025CC3E)
+I (.\USBAudio\system_LPC17xx.h)(0x5452635A)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdlib.h)(0x6025CC34)
+I (GLCD.h)(0x673F8967)
+I (Font_6x8_h.h)(0x631E5620)
+I (Font_16x24_h.h)(0x631E5620)
+F (.\type.h)(0x4D250C6C)()
+F (.\KBD.c)(0x673D085F)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\kbd.o --omf_browse .\objects\kbd.crf --depend .\objects\kbd.d)
+I (.\USBAudio\LPC17xx.H)(0x537C1E0A)
+I (.\USBAudio\core_cm3.h)(0x4D251A7C)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdint.h)(0x6025CC3E)
+I (.\USBAudio\system_LPC17xx.h)(0x5452635A)
+I (KBD.h)(0x673D07F5)
+F (.\KBD.h)(0x673D07F5)()
+F (.\MainMenu.c)(0x674893F7)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\mainmenu.o --omf_browse .\objects\mainmenu.crf --depend .\objects\mainmenu.d)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdio.h)(0x6025CC34)
+I (F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x60D491A2)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdint.h)(0x6025CC3E)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stddef.h)(0x6025CC3E)
+I (LPC17xx.h)(0x673F8C0F)
+I (.\USBAudio\core_cm3.h)(0x4D251A7C)
+I (.\USBAudio\system_LPC17xx.h)(0x5452635A)
+I (GLCD.h)(0x673F8967)
+I (MainMenu.h)(0x673F5DD1)
+I (KBD.h)(0x673D07F5)
+F (.\osObjects.h)(0x5C8ACD3C)()
+F (.\GameScript.h)(0x673F5B5C)()
+F (.\MainMenu.h)(0x673F5DD1)()
+F (.\USBAudio\Abstract.txt)(0x51801F34)()
+F (.\USBAudio\adcuser.c)(0x51801F34)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\adcuser.o --omf_browse .\objects\adcuser.crf --depend .\objects\adcuser.d)
+I (USBAudio\type.h)(0x4D251A7C)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdint.h)(0x6025CC3E)
+I (USBAudio\usb.h)(0x51801F34)
+I (USBAudio\audio.h)(0x51801F34)
+I (USBAudio\usbcfg.h)(0x51801F34)
+I (USBAudio\usbcore.h)(0x51801F34)
+I (USBAudio\adcuser.h)(0x51801F34)
+I (USBAudio\usbaudio.h)(0x51801F34)
+F (.\USBAudio\usbcore.c)(0x673F9CEA)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\usbcore.o --omf_browse .\objects\usbcore.crf --depend .\objects\usbcore.d)
+I (USBAudio\type.h)(0x4D251A7C)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdint.h)(0x6025CC3E)
+I (USBAudio\usb.h)(0x51801F34)
+I (USBAudio\usbcfg.h)(0x51801F34)
+I (USBAudio\usbhw.h)(0x51801F34)
+I (USBAudio\usbcore.h)(0x51801F34)
+I (USBAudio\usbdesc.h)(0x51801F34)
+I (USBAudio\usbuser.h)(0x51801F34)
+I (USBAudio\audio.h)(0x51801F34)
+I (USBAudio\adcuser.h)(0x51801F34)
+F (.\USBAudio\usbdesc.c)(0x51801F34)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\usbdesc.o --omf_browse .\objects\usbdesc.crf --depend .\objects\usbdesc.d)
+I (USBAudio\type.h)(0x4D251A7C)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdint.h)(0x6025CC3E)
+I (USBAudio\usb.h)(0x51801F34)
+I (USBAudio\audio.h)(0x51801F34)
+I (USBAudio\usbcfg.h)(0x51801F34)
+I (USBAudio\usbdesc.h)(0x51801F34)
+F (.\USBAudio\usbdmain.c)(0x6745091F)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\usbdmain.o --omf_browse .\objects\usbdmain.crf --depend .\objects\usbdmain.d)
+I (USBAudio\LPC17xx.h)(0x537C1E0A)
+I (USBAudio\core_cm3.h)(0x4D251A7C)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdint.h)(0x6025CC3E)
+I (USBAudio\system_LPC17xx.h)(0x5452635A)
+I (USBAudio\type.h)(0x4D251A7C)
+I (USBAudio\usb.h)(0x51801F34)
+I (USBAudio\usbcfg.h)(0x51801F34)
+I (USBAudio\usbhw.h)(0x51801F34)
+I (USBAudio\usbcore.h)(0x51801F34)
+I (USBAudio\usbaudio.h)(0x51801F34)
+F (.\USBAudio\usbhw.c)(0x6740D7F4)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\usbhw.o --omf_browse .\objects\usbhw.crf --depend .\objects\usbhw.d)
+I (USBAudio\LPC17xx.h)(0x537C1E0A)
+I (USBAudio\core_cm3.h)(0x4D251A7C)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdint.h)(0x6025CC3E)
+I (USBAudio\system_LPC17xx.h)(0x5452635A)
+I (USBAudio\type.h)(0x4D251A7C)
+I (USBAudio\usb.h)(0x51801F34)
+I (USBAudio\usbcfg.h)(0x51801F34)
+I (USBAudio\usbreg.h)(0x51801F34)
+I (USBAudio\usbhw.h)(0x51801F34)
+I (USBAudio\usbcore.h)(0x51801F34)
+I (USBAudio\usbuser.h)(0x51801F34)
+F (.\USBAudio\usbuser.c)(0x51801F34)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\usbuser.o --omf_browse .\objects\usbuser.crf --depend .\objects\usbuser.d)
+I (USBAudio\type.h)(0x4D251A7C)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdint.h)(0x6025CC3E)
+I (USBAudio\usb.h)(0x51801F34)
+I (USBAudio\usbcfg.h)(0x51801F34)
+I (USBAudio\usbhw.h)(0x51801F34)
+I (USBAudio\usbcore.h)(0x51801F34)
+I (USBAudio\usbuser.h)(0x51801F34)
+I (USBAudio\usbaudio.h)(0x51801F34)
+F (.\GameScript.c)(0x67452F8B)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\gamescript.o --omf_browse .\objects\gamescript.crf --depend .\objects\gamescript.d)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdio.h)(0x6025CC34)
+I (F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x60D491A2)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdint.h)(0x6025CC3E)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stddef.h)(0x6025CC3E)
+I (LPC17xx.h)(0x673F8C0F)
+I (.\USBAudio\core_cm3.h)(0x4D251A7C)
+I (.\USBAudio\system_LPC17xx.h)(0x5452635A)
+I (GLCD.h)(0x673F8967)
+I (GameScript.h)(0x673F5B5C)
+I (KBD.h)(0x673D07F5)
+I (MainMenu.h)(0x673F5DD1)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdlib.h)(0x6025CC34)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\math.h)(0x6025CC38)
+I (main.h)(0x6744C5E2)
+F (.\Images\blueFlower.c)(0x673F93C7)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\blueflower.o --omf_browse .\objects\blueflower.crf --depend .\objects\blueflower.d)
+F (.\Images\colorful-BG.c)(0x673F93C7)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\colorful-bg.o --omf_browse .\objects\colorful-bg.crf --depend .\objects\colorful-bg.d)
+F (.\Images\darkerBG.c)(0x673F93A7)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\darkerbg.o --omf_browse .\objects\darkerbg.crf --depend .\objects\darkerbg.d)
+F (.\Images\gallery.c)(0x673F93C7)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\gallery.o --omf_browse .\objects\gallery.crf --depend .\objects\gallery.d)
+F (.\Images\gameIcon.c)(0x673F93C7)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\gameicon.o --omf_browse .\objects\gameicon.crf --depend .\objects\gameicon.d)
+F (.\Images\musical-note.c)(0x673F93C7)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\musical-note.o --omf_browse .\objects\musical-note.crf --depend .\objects\musical-note.d)
+F (.\Images\sword.c)(0x673F93C7)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\sword.o --omf_browse .\objects\sword.crf --depend .\objects\sword.d)
+F (F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x60D491A2)()
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x67489D22)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\rtx_conf_cm.o --omf_browse .\objects\rtx_conf_cm.crf --depend .\objects\rtx_conf_cm.d)
+I (F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x60D491A2)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdint.h)(0x6025CC3E)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stddef.h)(0x6025CC3E)
+I (F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x60D491A2)
+F (RTE\Device\LPC1768\RTE_Device.h)(0x5D5C2A1A)()
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x66F5825E)(--cpu Cortex-M3 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"--pd "__UVISION_VERSION SETA 535" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x67451520)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I .\USBAudio-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS\RTX\INC"-I"F:\Recent Downlaods\Keli_V5\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include"-D__UVISION_VERSION="535" -D_RTE_ -DLPC175x_6x -D_RTE_-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (F:\Recent Downlaods\Keli_V5\Arm\ARMCC\include\stdint.h)(0x6025CC3E)
+I (.\USBAudio\LPC17xx.h)(0x537C1E0A)
+I (.\USBAudio\core_cm3.h)(0x4D251A7C)
+I (.\USBAudio\system_LPC17xx.h)(0x5452635A)

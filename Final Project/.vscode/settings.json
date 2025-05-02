@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "musical-note.h": "c",
+        "math.h": "c"
+    }
+}
